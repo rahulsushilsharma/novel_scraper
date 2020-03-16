@@ -2,7 +2,7 @@ import requests
 from requests_html import HTML
 
 flag = True
-n_url = input('enter the url :')
+n_url = input('enter the url of site :')
 
 def get_p(url):
 	return requests.get(url)
